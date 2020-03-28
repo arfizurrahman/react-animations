@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import { TrainsitionGroup, CSSTransition } from "react-transition-group";
+import { TransitionGroup, CSSTransition } from "react-transition-group";
 
 import "./List.css";
-import TransitionGroup from "react-transition-group/TransitionGroup";
 
 class List extends Component {
     state = {
